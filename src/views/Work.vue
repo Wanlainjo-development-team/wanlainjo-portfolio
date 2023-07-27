@@ -27,23 +27,6 @@
                         </v-card>
                     </v-col>
                 </v-row>
-                <!-- <v-list-item v-for="(project, i) in app.projects" :key="i" class="pb-16">
-                    <template v-slot:prepend>
-                        <v-avatar :size="size" @click="gotoLink(project.to)"  style="cursor: pointer;">
-                            <v-img :src="project.avatar" cover />
-                        </v-avatar>
-                    </template>
-                    <v-list-item-title>
-                        <span
-                        @click="gotoLink(project.to)"
-                            class="text-decoration-none text-indigo-accent-4 font-weight-bold text-h5 text-sm-h4 text-md-h3 text-lg-h2"
-                            style="line-height: 1.2em; cursor: pointer;">{{
-                                project.title }}</span>
-                    </v-list-item-title>
-                    <v-list-item-subtitle v-if="project.caption != ''">
-                        <span class="text-body-1">{{ project.caption }}</span>
-                    </v-list-item-subtitle>
-                </v-list-item> -->
             </v-col>
         </v-row>
     </v-container>
